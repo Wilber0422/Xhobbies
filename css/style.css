@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../Assets/bg-xhobbies-linktree.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.colum-left {
+    width: 50%;
+    height: 100%;
+}
+
+.img-logo {
+    width: 600px;
+    margin-top: 170px;
+    margin-left: 81px;
+}
+
+.colum-right {
+    width: 50%;
+    height: 100%;
+}
+
+.colum-right h1{
+  color: #fff;
+  font-size: 55px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  margin-top: 135px;
+  margin-left: 30px;
+}
+
+.row-1 {
+    width: 550px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background: #00000049;
+    margin: 20px 0;
+    margin-left: 30px;
+}
+
+.colum-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colum-1 img {
+    width: 70px;
+}
+
+.colum-1 h2 {
+    color: #fff;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.colum-1 h2 span {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.colum-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colum-2 img {
+    width: 70px;
+}
+
+.colum-2 h2 {
+    color: #fff;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.colum-2 h2 span {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.row-2 {
+    width: 550px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background: #00000049;
+    margin: 20px 0;
+    margin-left: 30px;
+}
+
+.row-2 img {
+    width: 70px;
+}
+
+.row-2 h2{
+    color: #fff;
+    font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.row-2 h2 span{
+    margin-left: -60px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.row-3 {
+    width: 550px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background: #00000049;
+    margin: 20px 0;
+    margin-left: 30px;
+}
+
+.row-3 img {
+    width: 70px;
+}
+
+.row-3 h2 {
+    color: #fff;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.row-3 h2 span{
+    margin-left: -20px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.boton-movil {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 400px) {
+    .home {
+        overflow: hidden;
+    }
+
+    .img-logo {
+        width: 350px;
+        position: absolute;
+        top: -150px;
+        left: -50px;
+    }
+
+    .colum-right h1{
+        font-size: 30px;
+        position: absolute;
+        top: 200px;
+        left: 30px;
+    }
+
+    .row-1 {
+        position: absolute;
+        top: 400px;
+        left: 50px;
+        width: 300px;
+        height: 50px;
+    }
+    
+    .colum-1 img {
+        width: 20px;
+    }
+    
+    .colum-1 h2 {
+        color: #fff;
+        font-size: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+    }
+    
+    .colum-1 h2 span {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+  }
